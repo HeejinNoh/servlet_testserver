@@ -1,6 +1,7 @@
 package com.test.lesson01;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet("/servlet/quiz09")
 public class PostMethodQuiz09 extends HttpServlet{
@@ -12,6 +13,6 @@ public class PostMethodQuiz09 extends HttpServlet{
 		String introduce = request.getParameter("introduce");
 		
 		PrintWriter out = response.getWriter();
-		out.
+		out.print(""); // 이슈를 위한 불필요한 코드
 
 }
